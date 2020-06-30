@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color:  #E4D9C8;
+}
+
+.main {
+    height: 100vh;
+    
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.map-container {
+    height: 400px;
+    opacity:.85;
+    border-radius: 12px;
+}
+
+#map {
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.chart-container {
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chart-container .col {
+    border-radius: 30px;
+    background-color: #ffffff;
+    opacity: .85;
+}
+
+.linear-chart {
+    height: 100%;
+}
+
+.title-container h1 {
+    color:#CC070E;
+    margin-bottom: 0;
+}
+
+.title-container h4 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.stats-container .card {    
+    background-color: white;
+    border-radius: 12px;
+    opacity: 0.85;
+}
+
+.stats-container .card-body {
+    padding: 1rem;
+}
+
+.stats-container .card:hover {
+    background-color: #D1B5A1;
+    border-radius: 12px;
+}
+
+.side-panel-container {
+    border-radius: 30px;
+    height: 100vh;
+}
+
+.pie-chart{
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.table{
+     /* overflow: hidden; 
+    border-radius: 30px;
+    table-layout:fixed;
+    width:100%; */
+    height: 10vh;
+    border-radius: 15px;
+    opacity: 0.85;
+}
+
+/* .country-data{
+    
+
+} */
+
+.total-number {
+    color: #A80006;
+}
+
+.active-number {
+    color: #5F0407;
+}
+
+.recovered-number {
+    color: #CC070E;
+}
+
+.deaths-number {
+    color: #FF0F18;
+}
